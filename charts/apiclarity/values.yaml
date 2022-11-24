@@ -211,20 +211,20 @@ trafficSource:
   tyk:
     ## Enable Tyk traffic source
     ##
-    enabled: false
+    enabled: true
 
     ## Enable Tyk verification in a Pre-Install Job
     ##
     enableTykVerify: true
     ## Specify the name of the proxy container in Tyk gateway to patch
     ##
-    containerName: "proxy"
+    containerName: "tyk-gtw"
     ## Specify the name of the Tyk gateway deployment to patch
     ##
-    deploymentName: ""
+    deploymentName: "tyk-gtw"
     ## Specify the namespace of the Tyk gateway deployment to patch
     ##
-    deploymentNamespace: ""
+    deploymentNamespace: "tyk"
 
 # End of APIClarity Traffic Source Values
 #######################################################################################
