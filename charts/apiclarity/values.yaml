@@ -218,10 +218,10 @@ trafficSource:
     enableTykVerify: true
     ## Specify the name of the proxy container in Tyk gateway to patch
     ##
-    containerName: "tyk-gtw"
+    containerName: "tyk"
     ## Specify the name of the Tyk gateway deployment to patch
     ##
-    deploymentName: "tyk-gtw"
+    deploymentName: "tyk"
     ## Specify the namespace of the Tyk gateway deployment to patch
     ##
     deploymentNamespace: "tyk"
